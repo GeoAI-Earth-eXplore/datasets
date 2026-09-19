@@ -101,6 +101,7 @@ Datasets related to tree crowns, canopy structure, forest cover, vegetation, and
 | [NEON Canopy Height Model](https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_CHM_001) | Canopy height models derived from NEON airborne LiDAR. | United States NEON sites | Canopy height | Open |
 | [High Resolution 1 m Global Canopy Height Maps](https://gee-community-catalog.org/projects/meta_trees/) | High-resolution canopy height products for tree and vegetation analysis. | Global | Approximately 1 m | Open |
 | [Global Canopy Height](https://langnico.github.io/globalcanopyheight/) | Global high-resolution canopy height dataset. | Global | High resolution | Open |
+| [CanopyRS Available Datasets](https://hugobaudchon.github.io/CanopyRS/user-guide/data/#available-datasets) | Preprocessed tree and canopy datasets for model training and benchmarking, including SelvaBox, SelvaMask, Detectree2, NeonTreeEvaluation, OAM-TCD, BCI50ha, and QuebecTrees. | Multiple regions | Tree crowns / canopy / remote sensing | Open / research |
 
 ---
 
