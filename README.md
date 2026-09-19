@@ -165,3 +165,4 @@ Benchmark datasets for GeoAI, remote sensing, object detection, semantic segment
 | [StreetTree](https://arxiv.org/abs/2602.19123) | Fine-grained tree species classification | Street-level imagery | Global | Research |
 | [SelvaBox](https://proceedings.iclr.cc/paper_files/paper/2026/hash/1c3e0cb1dd13ab2497a8ebd5129ad166-Abstract-Conference.html) | Tree crown detection | High-resolution imagery | Tropical forests | Research |
 | [BioMassters](https://nascetti-a.github.io/BioMasster/) | Forest biomass estimation | Multimodal satellite time series | Forest ecosystems | Open / research |
+| [NeonTreeEvaluation Benchmark](https://zenodo.org/records/5914554) | Benchmark dataset for evaluating individual tree detection methods using high-resolution remote sensing data. | Tree detection / crown delineation | NEON sites / forest environments | Open / research |
