@@ -103,6 +103,7 @@ Datasets related to tree crowns, canopy structure, forest cover, vegetation, and
 | [Global Canopy Height](https://langnico.github.io/globalcanopyheight/) | Global high-resolution canopy height dataset. | Global | High resolution | Open |
 | [CanopyRS Available Datasets](https://hugobaudchon.github.io/CanopyRS/user-guide/data/#available-datasets) | Preprocessed tree and canopy datasets for model training and benchmarking, including SelvaBox, SelvaMask, Detectree2, NeonTreeEvaluation, OAM-TCD, BCI50ha, and QuebecTrees. | Multiple regions | Tree crowns / canopy / remote sensing | Open / research |
 | [USDA Forest Service Tree Canopy Cover](https://data.fs.usda.gov/geodata/rastergateway/treecanopycover/) | USDA Forest Service tree canopy cover raster products for forest and vegetation analysis. | United States | Tree canopy cover raster | Open |
+| [Urban Tree Canopy Data – Los Angeles](https://zenodo.org/records/17459767) | Urban tree canopy dataset containing manually delineated canopy polygons, NAIP imagery, spatial sampling data, and prepared deep-learning datasets for tree canopy mapping. | Boyle Heights and City Terrace, Los Angeles, California | NAIP imagery / canopy polygons / deep-learning data | Open / research |
 
 ---
 
