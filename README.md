@@ -10,11 +10,13 @@ The goal of this repository is to make useful geospatial datasets easier to disc
 - [Satellite and Aerial Imagery](#satellite-and-aerial-imagery)
 - [LiDAR and 3D Geospatial Data](#lidar-and-3d-geospatial-data)
 - [Climate and Meteorological Data](#climate-and-meteorological-data)
+- [Water Quality and Inland Waters](#water-quality-and-inland-waters)
 - [Elevation and Terrain](#elevation-and-terrain)
 - [Soil Data](#soil-data)
 - [Land Cover and Land Use](#land-cover-and-land-use)
 - [Agriculture](#agriculture)
 - [Forests and Vegetation](#forests-and-vegetation)
+- [Biodiversity and Ecology](#biodiversity-and-ecology)
 - [Biomass and Carbon](#biomass-and-carbon)
 - [Protected Lands and Parks](#protected-lands-and-parks)
 - [Socioeconomic and Demographic Data](#socioeconomic-and-demographic-data)
@@ -83,7 +85,6 @@ Airborne LiDAR, spaceborne LiDAR, point clouds, elevation, canopy structure, and
 | [Global Canopy Height](https://langnico.github.io/globalcanopyheight/) | High-resolution global canopy height model derived from remote sensing observations. | Global | Canopy height | Open |
 
 ---
----
 
 ## Climate and Meteorological Data
 
@@ -97,6 +98,19 @@ Datasets for temperature, precipitation, radiation, wind, atmospheric pressure, 
 
 ---
 
+## Water Quality and Inland Waters
+
+Datasets and resources for lakes, inland waters, cyanobacteria, water quality, and aquatic environmental monitoring.
+
+| Resource | Description | Coverage | Data Type / Resolution | Access |
+|---|---|---|---|---|
+| [Sentinel-3 OLCI Cyanobacteria Index](https://doi.org/10.5067/MERGED-S3/OLCI/L3M/CYAN/CI/6.0) | Merged Sentinel-3A and Sentinel-3B OLCI product for monitoring cyanobacteria conditions in inland and coastal waters. | United States / product coverage | Satellite-derived cyanobacteria index | Open |
+| [Florida Lakes](https://geodata.dep.state.fl.us/datasets/97b765ff2b70400d8bcab23fbe2a5e88_0/about) | Geospatial dataset representing lakes and inland water bodies across Florida. | Florida, United States | Vector water-body boundaries | Open |
+| [Urban Land Use and Water Quality](https://www.usgs.gov/mission-areas/water-resources/science/urban-land-use-and-water-quality) | USGS resource supporting analysis of relationships between urban development, land use, and water-quality conditions. | United States | Water-quality / environmental data | Open |
+| [CHNEP Water Atlas – Lake Okeechobee](https://chnep.wateratlas.usf.edu/waterbodies/lakes/1002667/) | Environmental and water-quality information for Lake Okeechobee provided through the Water Atlas system. | Lake Okeechobee, Florida | Water-quality / lake monitoring data | Open |
+
+---
+
 ## Elevation and Terrain
 
 Datasets for elevation, slope, aspect, terrain analysis, and related topographic variables.
@@ -104,6 +118,7 @@ Datasets for elevation, slope, aspect, terrain analysis, and related topographic
 | Resource | Description | Coverage | Resolution | Access |
 |---|---|---|---|---|
 | [USGS 3DEP 10 m](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_collection) | Digital elevation data from the U.S. Geological Survey 3D Elevation Program that can support derivation of slope, aspect, and terrain variables. | United States | Approximately 10 m | Open |
+| [USGS 3DEP 1 m](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_1m) | High-resolution bare-earth digital elevation models derived from USGS 3DEP LiDAR for detailed terrain and topographic analysis. | United States | 1 m | Open |
 
 ---
 
@@ -134,6 +149,8 @@ National and global land-cover, land-use, surface characterization, and land-cha
 | [Land-Use Harmonization](https://luh.umd.edu/data.shtml) | Global historical and future land-use datasets used in Earth system and climate modeling. | Global | Varies by product | Open |
 | [FGDL Map Viewer](https://fgdl.org/fgdlmap/) | Florida Geographic Data Library map viewer providing access to numerous statewide geospatial layers. | Florida, United States | Varies | Open |
 | [GEE Community Catalog – Data Themes](https://gee-community-catalog.org/projects/) | Community-maintained catalog of geospatial datasets available through or compatible with Google Earth Engine. | Global | Varies | Open |
+| [Fractional Impervious Surface](https://www.mrlc.gov/data/type/fractional-impervious-surface) | MRLC/NLCD product estimating the percentage of each pixel covered by impervious surfaces such as roads, buildings, and other developed surfaces. | United States | 30 m | Open |
+| [ESA WorldCover](https://esa-worldcover.org/) | Global land-cover product derived from Sentinel-1 and Sentinel-2 observations for land-cover and habitat characterization. | Global | 10 m | Open |
 
 ---
 
@@ -170,6 +187,17 @@ Datasets related to tree crowns, canopy structure, forest cover, vegetation, and
 | [Urban Tree Canopy Data – Los Angeles](https://zenodo.org/records/17459767) | Urban tree canopy dataset containing manually delineated canopy polygons, NAIP imagery, spatial sampling data, and prepared deep-learning datasets for tree canopy mapping. | Boyle Heights and City Terrace, Los Angeles, California | NAIP imagery / canopy polygons / deep-learning data | Open / research |
 
 ---
+## Biodiversity and Ecology
+
+Datasets for biodiversity, species richness, ecological communities, and temporal changes in biological diversity.
+
+| Resource | Description | Coverage | Data Type / Resolution | Access |
+|---|---|---|---|---|
+| [BioTIME](https://biotime.st-andrews.ac.uk/download.php) | Global database of biodiversity time series containing ecological community observations through time. | Global | Species abundance / occurrence time series | Open / research |
+| [USGS GAP Terrestrial Vertebrate Species Richness Maps](https://www.sciencebase.gov/catalog/item/5bef2935e4b045bfcadf732c) | Species-richness maps for terrestrial vertebrates, including mammals, birds, reptiles, and amphibians. | Conterminous United States | 30 m raster species-richness products | Open |
+| [Temp_Biodiv_Change](https://github.com/irudik/Temp_Biodiv_Change) | Research data and code resources related to temporal biodiversity change and environmental analysis. | Study dependent | Biodiversity / environmental data | Open / research |
+
+---
 
 ## Biomass and Carbon
 
@@ -202,6 +230,7 @@ Datasets related to protected areas, national parks, state parks, conservation l
 | [NPS Vector Boundaries](https://roblabs.com/nps-vector-boundaries/) | Vector boundary resources for National Park Service units. | United States | Vector boundaries | Open |
 | [Florida State Park Attendance Report](https://www.floridastateparks.org/sites/default/files/media/file/AttendanceReport_AllData.pdf) | Historical attendance statistics for Florida State Parks. | Florida, United States | Visitation statistics | Open |
 | [U.S. National Park Visit Data](https://www.responsible-datasets-in-context.com/posts/np-data/) | Curated historical U.S. National Park visitation dataset and contextual documentation. | United States | Visitation statistics | Open |
+| [Florida's Outdoor Recreation Inventory](https://mapdirect-fdep.opendata.arcgis.com/datasets/floridas-outdoor-recreation-inventory/about) | Statewide inventory of outdoor recreation sites and facilities supporting recreation, accessibility, and cultural ecosystem-service analysis. | Florida, United States | Recreation sites / facilities | Open |
 
 ---
 
@@ -216,6 +245,10 @@ Population, demographic, parcel, socioeconomic, and other human-environment geos
 | [Florida Statewide Parcels](https://www.arcgis.com/home/item.html?id=efa909d6b1c841d298b0a649e7f71cf2) | Statewide parcel dataset for Florida. | Florida, United States | Parcel polygons / attributes | Check source terms |
 | [National Park Service Visitor Use Statistics](https://irma.nps.gov/Stats/) | Visitor-use statistics that can support human-environment and recreation analyses. | United States | Tabular visitation data | Open |
 | [Florida State Park Attendance Report](https://www.floridastateparks.org/sites/default/files/media/file/AttendanceReport_AllData.pdf) | Historical state park attendance information useful for recreation and ecosystem-service studies. | Florida, United States | Tabular visitation data | Open |
+| [LandScan](https://landscan.ornl.gov/) | High-resolution global population distribution dataset providing modeled ambient population estimates for population-density and human-environment analysis. | Global | Gridded population | Research / access terms apply |
+| [2020 Rural-Urban Commuting Area Codes](https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes) | Census-tract-based classification describing rural and urban areas using population density, urbanization, and commuting relationships. | United States | Census tracts / ZIP-code approximations | Open |
+| [National Household Travel Survey](https://nhts.ornl.gov/) | National survey dataset describing household travel behavior, trip characteristics, transportation use, and mobility patterns. | United States | Survey / tabular data | Open |
+| [Geofabrik OpenStreetMap – Florida](https://download.geofabrik.de/north-america/us/florida.html) | Downloadable OpenStreetMap extract for Florida containing roads, paths, buildings, land use, points of interest, and other mapped features. | Florida, United States | OpenStreetMap vector data | Open |
 
 ---
 
