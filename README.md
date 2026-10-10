@@ -69,7 +69,7 @@ Airborne LiDAR, spaceborne LiDAR, point clouds, elevation, canopy structure, and
 
 | Resource | Description | Coverage | Data Type | Access |
 |---|---|---|---|---|
-| [USGS 3DEP LiDAR](https://data.usgs.gov/datacatalog/data/USGS:b7e353d2-325f-4fc6-8d95-01254705638a) | U.S. Geological Survey 3D Elevation Program LiDAR point-cloud collection. | United States | Airborne LiDAR / point clouds | Open |
+| [USGS 3DEP LiDAR](https://data.usgs.gov/datacatalog/data/USGS:b7e353d2-325f-4fc6-8d95-01254705638a) | Airborne LiDAR point-cloud collection supporting high-resolution elevation, terrain, surface structure, canopy height, and 3D analysis. | United States | LiDAR point clouds / elevation | Open |
 | [USGS 3DEP LiDAR Basic Example](https://usgs-lidar.gishub.org/) | Interactive example and workflow for accessing and working with USGS 3DEP LiDAR data. | United States | LiDAR / elevation | Open |
 | [OpenTopography](https://opentopography.org/) | Platform providing access to high-resolution topography, LiDAR, and related geospatial datasets. | Global | LiDAR / DEM / point clouds | Open / varies by dataset |
 | [NOAA Miami-Dade 2021 LiDAR](https://portal.opentopography.org/noaaDataset?noaaID=10338) | NOAA LiDAR dataset covering Miami-Dade County, Florida. | Miami-Dade County, Florida | Airborne LiDAR | Open |
