@@ -6,8 +6,12 @@ The goal of this repository is to make useful geospatial datasets easier to disc
 
 ## Categories
 
+- [Satellite Missions and Sensors](#satellite-missions-and-sensors)
 - [Satellite and Aerial Imagery](#satellite-and-aerial-imagery)
 - [LiDAR and 3D Geospatial Data](#lidar-and-3d-geospatial-data)
+- [Climate and Meteorological Data](#climate-and-meteorological-data)
+- [Elevation and Terrain](#elevation-and-terrain)
+- [Soil Data](#soil-data)
 - [Land Cover and Land Use](#land-cover-and-land-use)
 - [Agriculture](#agriculture)
 - [Forests and Vegetation](#forests-and-vegetation)
@@ -15,6 +19,20 @@ The goal of this repository is to make useful geospatial datasets easier to disc
 - [Protected Lands and Parks](#protected-lands-and-parks)
 - [Socioeconomic and Demographic Data](#socioeconomic-and-demographic-data)
 - [Benchmarks](#benchmarks)
+
+---
+
+## Satellite Missions and Sensors
+
+Major Earth observation satellite missions and sensors relevant to GeoAI, remote sensing, and environmental applications.
+
+| Mission / Sensor | Provider | Data Type | Key Products / Measurements | Spatial Resolution | Revisit / Cadence | Coverage | Access |
+|---|---|---|---|---|---|---|---|
+| [Landsat 8 / 9](https://www.usgs.gov/landsat-missions) | USGS / NASA | Multispectral / thermal | Surface reflectance, vegetation, land cover, surface temperature | 15 m panchromatic; 30 m multispectral; 100 m thermal | 16 days per satellite; 8 days combined | Global | Open |
+| [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2) | ESA / Copernicus | Multispectral optical | Surface reflectance, vegetation, agriculture, water, land cover | 10 m / 20 m / 60 m | Approximately 5 days | Global land | Open |
+| [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1) | ESA / Copernicus | C-band SAR | Radar backscatter, surface change, flooding, agriculture, deformation | Product-dependent; commonly around 10 m | Orbit and product dependent | Global | Open |
+| [MODIS — Terra / Aqua](https://modis.gsfc.nasa.gov/) | NASA | Multispectral | Vegetation indices, land surface temperature, LAI, albedo, land cover, fire | 250 m / 500 m / 1 km | Daily to multi-day products | Global | Open |
+| [WorldView-3](https://earth.esa.int/eogateway/missions/worldview-3) | Maxar | Very-high-resolution multispectral | Panchromatic, multispectral, SWIR imagery | Approximately 0.31 m pan; 1.24 m multispectral; 3.7 m SWIR | Tasking / acquisition dependent | Global | Commercial / limited research access |
 
 ---
 
@@ -32,6 +50,16 @@ Satellite, aerial, multispectral, and other remotely sensed imagery resources.
 | [WorldView-3](https://earth.esa.int/eogateway/missions/worldview-3#data-section) | Very-high-resolution commercial satellite imagery with panchromatic and multispectral capabilities. | Global | Up to approximately 0.31 m panchromatic | Commercial / limited research access |
 | [NASA Earthdata Search – WorldView-3](https://search.earthdata.nasa.gov/search?as%5Bplatforms%5D%5B0%5D=Space-based%20Platforms%3AEarth%20Observation%20Satellites%3AWorldview%3AWORLDVIEW-3&fpb0=Space-based%20Platforms&fpc0=Earth%20Observation%20Satellites&fpsc0=Worldview&fps0=WORLDVIEW-3) | NASA Earthdata interface for discovering available WorldView-3-related datasets and collections. | Global | Varies by product | Depends on dataset |
 | [Google Satellite Embedding](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL) | Annual geospatial embedding dataset derived from Earth observation imagery for downstream mapping and analysis tasks. | Global | Varies by product | Available through Google Earth Engine |
+
+### Satellite Data Products
+
+| Product | Source Mission / Sensor | Variables / Data | Resolution | Temporal Availability | Coverage | Access |
+|---|---|---|---|---|---|---|
+| [NASA HLS L30](https://developers.google.com/earth-engine/datasets/catalog/NASA_HLS_HLSL30_v002) | Landsat 8 / 9 | Harmonized surface reflectance and derived spectral indices | 30 m | 2013–ongoing | Global land | Open |
+| [NASA HLS S30](https://developers.google.com/earth-engine/datasets/catalog/NASA_HLS_HLSS30_v002) | Sentinel-2 | Harmonized surface reflectance and derived spectral indices | 30 m | 2015–ongoing | Global land | Open |
+| [MODIS MCD43A3](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A3) | Terra / Aqua MODIS | Surface albedo | 500 m | 2000–ongoing | Global land | Open |
+| [MODIS MOD11A1](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A1) | Terra MODIS | Land surface temperature | 1 km | 2000–ongoing | Global land | Open |
+| [MODIS MOD15A2H](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD15A2H) | Terra MODIS | Leaf area index / FPAR | 500 m | 2000–ongoing | Global land | Open |
 
 ---
 
@@ -55,6 +83,40 @@ Airborne LiDAR, spaceborne LiDAR, point clouds, elevation, canopy structure, and
 | [Global Canopy Height](https://langnico.github.io/globalcanopyheight/) | High-resolution global canopy height model derived from remote sensing observations. | Global | Canopy height | Open |
 
 ---
+---
+
+## Climate and Meteorological Data
+
+Datasets for temperature, precipitation, radiation, wind, atmospheric pressure, and related environmental variables.
+
+| Resource | Description | Coverage | Resolution / Cadence | Availability | Access |
+|---|---|---|---|---|---|
+| [NASA Daymet v4](https://developers.google.com/earth-engine/datasets/catalog/NASA_ORNL_DAYMET_V4) | Gridded daily meteorological dataset including temperature, precipitation, vapor pressure, and shortwave radiation. | North America, Hawaii, Puerto Rico | 1 km; daily | 1980–2025 | Open |
+| [ECMWF ERA5](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_HOURLY) | Global atmospheric reanalysis providing longwave radiation and many additional climate variables. | Global | Approximately 31 km; hourly | 1940–near present | Open |
+| [ECMWF ERA5-Land](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_LAND_HOURLY) | Land-focused reanalysis including wind components, surface pressure, temperature, and other land-surface variables. | Global land | Approximately 9 km; hourly | 1950–near present | Open |
+
+---
+
+## Elevation and Terrain
+
+Datasets for elevation, slope, aspect, terrain analysis, and related topographic variables.
+
+| Resource | Description | Coverage | Resolution | Access |
+|---|---|---|---|---|
+| [USGS 3DEP 10 m](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_collection) | Digital elevation data from the U.S. Geological Survey 3D Elevation Program that can support derivation of slope, aspect, and terrain variables. | United States | Approximately 10 m | Open |
+
+---
+
+## Soil Data
+
+Datasets for soil properties, soil mapping, and related environmental modeling.
+
+| Resource | Description | Coverage | Resolution / Data Type | Access |
+|---|---|---|---|---|
+| [gNATSGO](https://www.nrcs.usda.gov/resources/data-and-reports/gridded-national-soil-survey-geographic-database-gnatsgo) | Gridded national soil survey database derived from NRCS soil survey information. | CONUS | Gridded soil properties | Open |
+| [SOLUS100](https://www.nrcs.usda.gov/resources/data-and-reports/soil-landscapes-of-the-united-states-solus) | Soil Landscapes of the United States product providing nationally consistent gridded soil information. | CONUS | Gridded soil properties | Open |
+
+---
 
 ## Land Cover and Land Use
 
@@ -65,6 +127,7 @@ National and global land-cover, land-use, surface characterization, and land-cha
 | [Dynamic World](https://dynamicworld.app/) | Near-real-time global land-cover dataset derived from Sentinel-2 imagery using machine learning. | Global | 10 m | Open |
 | [National Land Cover Database](https://www.usgs.gov/centers/eros/science/national-land-cover-database) | U.S. land-cover and land-cover change products maintained by USGS. | United States | Typically 30 m | Open |
 | [MRLC Annual NLCD Data](https://www.mrlc.gov/data?f%5B0%5D=category%3ALand%20Cover&f%5B1%5D=project_tax_term_term_parents_tax_term_name%3AAnnual%20NLCD) | Download portal for Annual NLCD land-cover products. | United States | Varies by product | Open |
+| [Annual NLCD](https://www.usgs.gov/centers/eros/science/annual-national-land-cover-database) | Annual U.S. land-cover product supporting land-cover and land-change analysis. | CONUS | 30 m | Open |
 | [NLCD Class Legend](https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description) | Official land-cover class definitions and descriptions for NLCD. | United States | Not applicable | Open |
 | [NLCD ScienceBase Collection](https://www.sciencebase.gov/catalog/item/6345b637d34e342aee0863aa) | USGS ScienceBase record providing access to NLCD-related products. | United States | Varies by product | Open |
 | [Florida Statewide Land Use and Land Cover](https://geodata.dep.state.fl.us/datasets/FDEP::statewide-land-use-land-cover/about) | Florida Department of Environmental Protection statewide land-use and land-cover dataset. | Florida, United States | Varies | Open |
@@ -120,6 +183,7 @@ Datasets related to aboveground biomass, forest carbon, vegetation carbon, and e
 | [Planet Forest Carbon](https://www.planet.com/products/forest-carbon/) | Forest carbon products derived from satellite and other Earth observation data. | Global / product-dependent | Forest carbon / biomass | Commercial |
 | [GEDI](https://www.earthdata.nasa.gov/data/instruments/gedi-lidar) | Spaceborne LiDAR observations widely used for forest structure and biomass estimation. | Near-global land coverage within GEDI orbital range | LiDAR-derived structure and biomass products | Open |
 | [FIA BIGMAP](https://data.fs.usda.gov/geodata/rastergateway/bigmap/index.php) | Forest Service spatial modeling products connecting Forest Inventory and Analysis observations with remote sensing. | United States | Raster | Open |
+| [Florida Grazing Lands Soil Organic Carbon](https://zenodo.org/records/22000721) | Baseline soil organic carbon stock predictions for Florida grazing lands derived for the contemporary 2022–2024 sampling period. | Florida grazing lands | 30 m grid; 0–20 cm soil depth | Open / research |
 
 ---
 
