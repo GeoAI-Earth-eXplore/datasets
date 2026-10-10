@@ -133,6 +133,7 @@ Datasets for elevation, slope, aspect, terrain analysis, and related topographic
 |---|---|---|---|---|
 | [USGS 3DEP 1 m](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_1m) | High-resolution bare-earth digital elevation models derived from USGS 3DEP LiDAR for detailed terrain and topographic analysis. | United States | 1 m | Open |
 | [USGS 3DEP 10 m](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_collection) | Digital elevation data from the U.S. Geological Survey 3D Elevation Program that can support derivation of slope, aspect, and terrain variables. | United States | Approximately 10 m | Open |
+| [Copernicus DEM](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) | Global digital elevation model derived from radar satellite observations for terrain, elevation, slope, and topographic analysis. | Global | 30 m / 90 m products | Open |
 
 ---
 
@@ -237,6 +238,7 @@ Datasets related to protected areas, national parks, state parks, conservation l
 | Resource | Description | Coverage | Data Type | Access |
 |---|---|---|---|---|
 | [PAD-US](https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-download) | Protected Areas Database of the United States containing public lands and conservation areas. | United States | Vector boundaries / attributes | Open |
+| [World Database on Protected Areas (WDPA)](https://www.protectedplanet.net/en/thematic-areas/wdpa) | Global database of protected areas and conservation designations used for biodiversity, conservation, and ecosystem-service analysis. | Global | Protected-area polygons / points | Open / terms apply |
 | [National Park Service Visitor Use Statistics](https://irma.nps.gov/Stats/) | Official visitation statistics for units of the U.S. National Park System. | United States | Tabular visitation data | Open |
 | [ParkServe Data](https://www.tpl.org/park-data-downloads) | Park and park-access datasets from Trust for Public Land. | United States | Parks / accessibility / urban park data | Open / terms vary |
 | [Florida State Parks Boundaries](https://hub.arcgis.com/datasets/bd190cf3d3934fbd9529dfe1c8c8772c_0/explore) | Geospatial boundaries for Florida State Parks. | Florida, United States | Vector boundaries | Open |
@@ -264,6 +266,7 @@ Population, demographic, parcel, socioeconomic, and other human-environment geos
 | [2020 Rural-Urban Commuting Area Codes](https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes) | Census-tract-based classification describing rural and urban areas using population density, urbanization, and commuting relationships. | United States | Census tracts / ZIP-code approximations | Open |
 | [National Household Travel Survey](https://nhts.ornl.gov/) | National survey dataset describing household travel behavior, trip characteristics, transportation use, and mobility patterns. | United States | Survey / tabular data | Open |
 | [Geofabrik OpenStreetMap – Florida](https://download.geofabrik.de/north-america/us/florida.html) | Downloadable OpenStreetMap extract for Florida containing roads, paths, buildings, land use, points of interest, and other mapped features. | Florida, United States | OpenStreetMap vector data | Open |
+| [WorldPop](https://www.worldpop.org/) | Global gridded population datasets providing spatially detailed population estimates for demographic, accessibility, and human-environment analysis. | Global | Product-dependent; commonly approximately 100 m–1 km | Open |
 
 ---
 
