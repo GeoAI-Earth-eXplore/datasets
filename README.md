@@ -31,10 +31,12 @@ Major Earth observation satellite missions and sensors relevant to GeoAI, remote
 | Mission / Sensor | Provider | Data Type | Key Products / Measurements | Spatial Resolution | Revisit / Cadence | Coverage | Access |
 |---|---|---|---|---|---|---|---|
 | [Landsat 8 / 9](https://www.usgs.gov/landsat-missions) | USGS / NASA | Multispectral / thermal | Surface reflectance, vegetation, land cover, surface temperature | 15 m panchromatic; 30 m multispectral; 100 m thermal | 16 days per satellite; 8 days combined | Global | Open |
+| [Sentinel-3](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-3) | ESA / Copernicus | Ocean and land monitoring / multispectral | Ocean color, land surface temperature, vegetation, water quality, altimetry | Sensor-dependent; approximately 300 m–1 km for major imaging products | Near-daily to multi-day depending on sensor/product | Global | Open |
 | [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2) | ESA / Copernicus | Multispectral optical | Surface reflectance, vegetation, agriculture, water, land cover | 10 m / 20 m / 60 m | Approximately 5 days | Global land | Open |
 | [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1) | ESA / Copernicus | C-band SAR | Radar backscatter, surface change, flooding, agriculture, deformation | Product-dependent; commonly around 10 m | Orbit and product dependent | Global | Open |
 | [MODIS — Terra / Aqua](https://modis.gsfc.nasa.gov/) | NASA | Multispectral | Vegetation indices, land surface temperature, LAI, albedo, land cover, fire | 250 m / 500 m / 1 km | Daily to multi-day products | Global | Open |
 | [WorldView-3](https://earth.esa.int/eogateway/missions/worldview-3) | Maxar | Very-high-resolution multispectral | Panchromatic, multispectral, SWIR imagery | Approximately 0.31 m pan; 1.24 m multispectral; 3.7 m SWIR | Tasking / acquisition dependent | Global | Commercial / limited research access |
+| [GEDI](https://www.earthdata.nasa.gov/data/instruments/gedi-lidar) | NASA | Spaceborne waveform LiDAR | Forest structure, canopy height, surface elevation, biomass-related measurements | Approximately 25 m footprints | Orbital sampling | Near-global land within ISS orbital range | Open |
 
 ---
 
@@ -117,8 +119,8 @@ Datasets for elevation, slope, aspect, terrain analysis, and related topographic
 
 | Resource | Description | Coverage | Resolution | Access |
 |---|---|---|---|---|
-| [USGS 3DEP 10 m](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_collection) | Digital elevation data from the U.S. Geological Survey 3D Elevation Program that can support derivation of slope, aspect, and terrain variables. | United States | Approximately 10 m | Open |
 | [USGS 3DEP 1 m](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_1m) | High-resolution bare-earth digital elevation models derived from USGS 3DEP LiDAR for detailed terrain and topographic analysis. | United States | 1 m | Open |
+| [USGS 3DEP 10 m](https://developers.google.com/earth-engine/datasets/catalog/USGS_3DEP_10m_collection) | Digital elevation data from the U.S. Geological Survey 3D Elevation Program that can support derivation of slope, aspect, and terrain variables. | United States | Approximately 10 m | Open |
 
 ---
 
@@ -187,6 +189,7 @@ Datasets related to tree crowns, canopy structure, forest cover, vegetation, and
 | [Urban Tree Canopy Data – Los Angeles](https://zenodo.org/records/17459767) | Urban tree canopy dataset containing manually delineated canopy polygons, NAIP imagery, spatial sampling data, and prepared deep-learning datasets for tree canopy mapping. | Boyle Heights and City Terrace, Los Angeles, California | NAIP imagery / canopy polygons / deep-learning data | Open / research |
 
 ---
+
 ## Biodiversity and Ecology
 
 Datasets for biodiversity, species richness, ecological communities, and temporal changes in biological diversity.
