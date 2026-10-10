@@ -8,6 +8,7 @@ The goal of this repository is to make useful geospatial datasets easier to disc
 
 - [Satellite Missions and Sensors](#satellite-missions-and-sensors)
 - [Satellite and Aerial Imagery](#satellite-and-aerial-imagery)
+- [Data Platforms and Catalogs](#data-platforms-and-catalogs)
 - [LiDAR and 3D Geospatial Data](#lidar-and-3d-geospatial-data)
 - [Climate and Meteorological Data](#climate-and-meteorological-data)
 - [Water Quality and Inland Waters](#water-quality-and-inland-waters)
@@ -31,12 +32,12 @@ Major Earth observation satellite missions and sensors relevant to GeoAI, remote
 | Mission / Sensor | Provider | Data Type | Key Products / Measurements | Spatial Resolution | Revisit / Cadence | Coverage | Access |
 |---|---|---|---|---|---|---|---|
 | [Landsat 8 / 9](https://www.usgs.gov/landsat-missions) | USGS / NASA | Multispectral / thermal | Surface reflectance, vegetation, land cover, surface temperature | 15 m panchromatic; 30 m multispectral; 100 m thermal | 16 days per satellite; 8 days combined | Global | Open |
-| [Sentinel-3](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-3) | ESA / Copernicus | Ocean and land monitoring / multispectral | Ocean color, land surface temperature, vegetation, water quality, altimetry | Sensor-dependent; approximately 300 m–1 km for major imaging products | Near-daily to multi-day depending on sensor/product | Global | Open |
-| [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2) | ESA / Copernicus | Multispectral optical | Surface reflectance, vegetation, agriculture, water, land cover | 10 m / 20 m / 60 m | Approximately 5 days | Global land | Open |
 | [Sentinel-1](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-1) | ESA / Copernicus | C-band SAR | Radar backscatter, surface change, flooding, agriculture, deformation | Product-dependent; commonly around 10 m | Orbit and product dependent | Global | Open |
+| [Sentinel-2](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2) | ESA / Copernicus | Multispectral optical | Surface reflectance, vegetation, agriculture, water, land cover | 10 m / 20 m / 60 m | Approximately 5 days | Global land | Open |
+| [Sentinel-3](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-3) | ESA / Copernicus | Ocean and land monitoring / multispectral | Ocean color, land surface temperature, vegetation, water quality, altimetry | Sensor-dependent; approximately 300 m–1 km for major imaging products | Near-daily to multi-day depending on sensor/product | Global | Open |
 | [MODIS — Terra / Aqua](https://modis.gsfc.nasa.gov/) | NASA | Multispectral | Vegetation indices, land surface temperature, LAI, albedo, land cover, fire | 250 m / 500 m / 1 km | Daily to multi-day products | Global | Open |
-| [WorldView-3](https://earth.esa.int/eogateway/missions/worldview-3) | Maxar | Very-high-resolution multispectral | Panchromatic, multispectral, SWIR imagery | Approximately 0.31 m pan; 1.24 m multispectral; 3.7 m SWIR | Tasking / acquisition dependent | Global | Commercial / limited research access |
 | [GEDI](https://www.earthdata.nasa.gov/data/instruments/gedi-lidar) | NASA | Spaceborne waveform LiDAR | Forest structure, canopy height, surface elevation, biomass-related measurements | Approximately 25 m footprints | Orbital sampling | Near-global land within ISS orbital range | Open |
+| [WorldView-3](https://earth.esa.int/eogateway/missions/worldview-3) | Maxar | Very-high-resolution multispectral | Panchromatic, multispectral, SWIR imagery | Approximately 0.31 m pan; 1.24 m multispectral; 3.7 m SWIR | Tasking / acquisition dependent | Global | Commercial / limited research access |
 
 ---
 
@@ -46,10 +47,6 @@ Satellite, aerial, multispectral, and other remotely sensed imagery resources.
 
 | Resource | Description | Coverage | Resolution | Access |
 |---|---|---|---|---|
-| [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) | Cloud-based platform providing access to large Earth observation and environmental datasets through STAC and related APIs. | Global | Varies by dataset | Open |
-| [Microsoft Planetary Computer STAC API](https://planetarycomputer.microsoft.com/api/stac/v1) | STAC API for programmatic discovery and access to datasets hosted by Microsoft Planetary Computer. | Global | Varies by dataset | Open |
-| [Microsoft Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog) | Catalog for browsing Earth observation and environmental datasets available through Microsoft Planetary Computer. | Global | Varies by dataset | Open |
-| [Microsoft Planetary Computer Explorer](https://planetarycomputer.microsoft.com/explore) | Interactive interface for exploring spatial datasets available through Microsoft Planetary Computer. | Global | Varies by dataset | Open |
 | [NAIP Imagery](https://nrcs.app.box.com/v/naip/folder/17936490251) | USDA National  Imagery Program aerial imagery for the United States. | United States | Varies by year and location; commonly sub-meter to 1 m | Open |
 | [WorldView-3](https://earth.esa.int/eogateway/missions/worldview-3#data-section) | Very-high-resolution commercial satellite imagery with panchromatic and multispectral capabilities. | Global | Up to approximately 0.31 m panchromatic | Commercial / limited research access |
 | [NASA Earthdata Search – WorldView-3](https://search.earthdata.nasa.gov/search?as%5Bplatforms%5D%5B0%5D=Space-based%20Platforms%3AEarth%20Observation%20Satellites%3AWorldview%3AWORLDVIEW-3&fpb0=Space-based%20Platforms&fpc0=Earth%20Observation%20Satellites&fpsc0=Worldview&fps0=WORLDVIEW-3) | NASA Earthdata interface for discovering available WorldView-3-related datasets and collections. | Global | Varies by product | Depends on dataset |
@@ -64,6 +61,19 @@ Satellite, aerial, multispectral, and other remotely sensed imagery resources.
 | [MODIS MCD43A3](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MCD43A3) | Terra / Aqua MODIS | Surface albedo | 500 m | 2000–ongoing | Global land | Open |
 | [MODIS MOD11A1](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD11A1) | Terra MODIS | Land surface temperature | 1 km | 2000–ongoing | Global land | Open |
 | [MODIS MOD15A2H](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD15A2H) | Terra MODIS | Leaf area index / FPAR | 500 m | 2000–ongoing | Global land | Open |
+
+---
+
+## Data Platforms and Catalogs
+
+Platforms and catalogs for discovering, accessing, exploring, and programmatically retrieving Earth observation and environmental datasets.
+
+| Resource | Description | Coverage | Focus | Access |
+|---|---|---|---|---|
+| [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/) | Cloud-based platform providing access to large Earth observation and environmental datasets through STAC and related APIs. | Global | Earth observation / cloud data access | Open |
+| [Microsoft Planetary Computer STAC API](https://planetarycomputer.microsoft.com/api/stac/v1) | Programmatic STAC interface for discovering and accessing datasets hosted by Microsoft Planetary Computer. | Global | STAC / programmatic data access | Open |
+| [Microsoft Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog) | Catalog interface for browsing Earth observation and environmental datasets available through Microsoft Planetary Computer. | Global | Dataset discovery | Open |
+| [Microsoft Planetary Computer Explorer](https://planetarycomputer.microsoft.com/explore) | Interactive interface for exploring spatial datasets available through Microsoft Planetary Computer. | Global | Interactive data exploration | Open |
 
 ---
 
@@ -132,6 +142,7 @@ Datasets for soil properties, soil mapping, and related environmental modeling.
 |---|---|---|---|---|
 | [gNATSGO](https://www.nrcs.usda.gov/resources/data-and-reports/gridded-national-soil-survey-geographic-database-gnatsgo) | Gridded national soil survey database derived from NRCS soil survey information. | CONUS | Gridded soil properties | Open |
 | [SOLUS100](https://www.nrcs.usda.gov/resources/data-and-reports/soil-landscapes-of-the-united-states-solus) | Soil Landscapes of the United States product providing nationally consistent gridded soil information. | CONUS | Gridded soil properties | Open |
+| [Florida Grazing Lands Soil Organic Carbon](https://zenodo.org/records/22000721) | Baseline soil organic carbon stock predictions for Florida grazing lands derived for the contemporary 2022–2024 sampling period. | Florida grazing lands | 30 m grid; 0–20 cm soil depth | Open / research |
 
 ---
 
@@ -214,7 +225,6 @@ Datasets related to aboveground biomass, forest carbon, vegetation carbon, and e
 | [Planet Forest Carbon](https://www.planet.com/products/forest-carbon/) | Forest carbon products derived from satellite and other Earth observation data. | Global / product-dependent | Forest carbon / biomass | Commercial |
 | [GEDI](https://www.earthdata.nasa.gov/data/instruments/gedi-lidar) | Spaceborne LiDAR observations widely used for forest structure and biomass estimation. | Near-global land coverage within GEDI orbital range | LiDAR-derived structure and biomass products | Open |
 | [FIA BIGMAP](https://data.fs.usda.gov/geodata/rastergateway/bigmap/index.php) | Forest Service spatial modeling products connecting Forest Inventory and Analysis observations with remote sensing. | United States | Raster | Open |
-| [Florida Grazing Lands Soil Organic Carbon](https://zenodo.org/records/22000721) | Baseline soil organic carbon stock predictions for Florida grazing lands derived for the contemporary 2022–2024 sampling period. | Florida grazing lands | 30 m grid; 0–20 cm soil depth | Open / research |
 
 ---
 
