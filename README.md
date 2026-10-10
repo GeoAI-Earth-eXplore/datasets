@@ -248,6 +248,7 @@ Datasets related to protected areas, national parks, state parks, conservation l
 | [Florida State Park Attendance Report](https://www.floridastateparks.org/sites/default/files/media/file/AttendanceReport_AllData.pdf) | Historical attendance statistics for Florida State Parks. | Florida, United States | Visitation statistics | Open |
 | [U.S. National Park Visit Data](https://www.responsible-datasets-in-context.com/posts/np-data/) | Curated historical U.S. National Park visitation dataset and contextual documentation. | United States | Visitation statistics | Open |
 | [Florida's Outdoor Recreation Inventory](https://mapdirect-fdep.opendata.arcgis.com/datasets/floridas-outdoor-recreation-inventory/about) | Statewide inventory of outdoor recreation sites and facilities supporting recreation, accessibility, and cultural ecosystem-service analysis. | Florida, United States | Recreation sites / facilities | Open |
+| [Wikiloc](https://www.wikiloc.com/) | Crowdsourced outdoor recreation platform containing geolocated hiking, cycling, running, and other recreational routes that can support recreation and cultural ecosystem-service research. | Global | User-contributed GPS tracks / recreation routes | Platform access / terms apply |
 
 ---
 
