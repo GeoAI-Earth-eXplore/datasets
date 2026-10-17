@@ -120,8 +120,10 @@ Datasets and resources for lakes, inland waters, cyanobacteria, water quality, a
 |---|---|---|---|---|
 | [Sentinel-3 OLCI Cyanobacteria Index](https://doi.org/10.5067/MERGED-S3/OLCI/L3M/CYAN/CI/6.0) | Merged Sentinel-3A and Sentinel-3B OLCI product for monitoring cyanobacteria conditions in inland and coastal waters. | United States / product coverage | Satellite-derived cyanobacteria index | Open |
 | [Florida Lakes](https://geodata.dep.state.fl.us/datasets/97b765ff2b70400d8bcab23fbe2a5e88_0/about) | Geospatial dataset representing lakes and inland water bodies across Florida. | Florida, United States | Vector water-body boundaries | Open |
+| [Florida LAKEWATCH](https://lakewatch.ifas.ufl.edu/) | UF/IFAS citizen-science and lake-monitoring program providing water-quality observations and information for lakes and other aquatic systems across Florida. | Florida, United States | Lake monitoring / water-quality data | Open |
 | [Urban Land Use and Water Quality](https://www.usgs.gov/mission-areas/water-resources/science/urban-land-use-and-water-quality) | USGS resource supporting analysis of relationships between urban development, land use, and water-quality conditions. | United States | Water-quality / environmental data | Open |
 | [CHNEP Water Atlas – Lake Okeechobee](https://chnep.wateratlas.usf.edu/waterbodies/lakes/1002667/) | Environmental and water-quality information for Lake Okeechobee provided through the Water Atlas system. | Lake Okeechobee, Florida | Water-quality / lake monitoring data | Open |
+| [CalSim 3](https://data.ca.gov/@california-department-of-water-resources/calsim-3) | California water-resources planning and operations modeling data supporting analysis of reservoir, river, water-supply, and system-management scenarios. | California, United States | Water-resource modeling / planning data | Open |
 
 ---
 
@@ -211,6 +213,7 @@ Datasets for biodiversity, species richness, ecological communities, and tempora
 | Resource | Description | Coverage | Data Type / Resolution | Access |
 |---|---|---|---|---|
 | [BioTIME](https://biotime.st-andrews.ac.uk/download.php) | Global database of biodiversity time series containing ecological community observations through time. | Global | Species abundance / occurrence time series | Open / research |
+| [eBird Status and Trends – Abundance Maps](https://science.ebird.org/en/status-and-trends/abundance-maps) | Species abundance maps and spatiotemporal estimates derived from eBird observations for studying bird distributions, seasonal patterns, and ecological change. | Large-scale / species-dependent | Bird abundance / distribution maps | Open / research |
 | [USGS GAP Terrestrial Vertebrate Species Richness Maps](https://www.sciencebase.gov/catalog/item/5bef2935e4b045bfcadf732c) | Species-richness maps for terrestrial vertebrates, including mammals, birds, reptiles, and amphibians. | Conterminous United States | 30 m raster species-richness products | Open |
 | [Temp_Biodiv_Change](https://github.com/irudik/Temp_Biodiv_Change) | Research data and code resources related to temporal biodiversity change and environmental analysis. | Study dependent | Biodiversity / environmental data | Open / research |
 
@@ -249,6 +252,7 @@ Datasets related to protected areas, national parks, state parks, conservation l
 | [U.S. National Park Visit Data](https://www.responsible-datasets-in-context.com/posts/np-data/) | Curated historical U.S. National Park visitation dataset and contextual documentation. | United States | Visitation statistics | Open |
 | [Florida's Outdoor Recreation Inventory](https://mapdirect-fdep.opendata.arcgis.com/datasets/floridas-outdoor-recreation-inventory/about) | Statewide inventory of outdoor recreation sites and facilities supporting recreation, accessibility, and cultural ecosystem-service analysis. | Florida, United States | Recreation sites / facilities | Open |
 | [Wikiloc](https://www.wikiloc.com/) | Crowdsourced outdoor recreation platform containing geolocated hiking, cycling, running, and other recreational routes that can support recreation and cultural ecosystem-service research. | Global | User-contributed GPS tracks / recreation routes | Platform access / terms apply |
+| [NOAA Recreational Fishing Data](https://www.fisheries.noaa.gov/topic/recreational-fishing-data) | NOAA fisheries data and survey resources describing recreational fishing activity, effort, catch, and participation for marine recreation and human-environment analysis. | United States / marine regions | Recreational fishing / survey data | Open |
 
 ---
 
@@ -268,6 +272,7 @@ Population, demographic, parcel, socioeconomic, and other human-environment geos
 | [National Household Travel Survey](https://nhts.ornl.gov/) | National survey dataset describing household travel behavior, trip characteristics, transportation use, and mobility patterns. | United States | Survey / tabular data | Open |
 | [Geofabrik OpenStreetMap – Florida](https://download.geofabrik.de/north-america/us/florida.html) | Downloadable OpenStreetMap extract for Florida containing roads, paths, buildings, land use, points of interest, and other mapped features. | Florida, United States | OpenStreetMap vector data | Open |
 | [WorldPop](https://www.worldpop.org/) | Global gridded population datasets providing spatially detailed population estimates for demographic, accessibility, and human-environment analysis. | Global | Product-dependent; commonly approximately 100 m–1 km | Open |
+| [YFCC100M Core Dataset](https://multimediacommons.wordpress.com/yfcc100m-core-dataset/) | Large-scale collection of Flickr images and videos with metadata, including geolocation information for subsets of the data, supporting human-activity, tourism, recreation, and cultural ecosystem-service research. | Global | Geotagged multimedia / social-media metadata | Research / dataset terms apply |
 
 ---
 
