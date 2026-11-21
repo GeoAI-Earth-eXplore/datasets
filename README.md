@@ -95,7 +95,7 @@ Airborne LiDAR, spaceborne LiDAR, point clouds, elevation, canopy structure, and
 | [NEON LiDAR](https://www.neonscience.org/data-collection/lidar) | Airborne LiDAR collected by the National Ecological Observatory Network. | United States NEON sites | Airborne LiDAR | Open |
 | [NEON Data Portal](https://www.neonscience.org/data) | NEON ecological and remote sensing datasets, including airborne observations. | United States NEON sites | Multiple | Open |
 | [NEON Canopy Height Model](https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_CHM_001) | NEON canopy height model collection available through Google Earth Engine. | United States NEON sites | Canopy height model | Open |
-| [High Resolution 1 m Global Canopy Height Maps](https://gee-community-catalog.org/projects/meta_trees/) | High-resolution canopy height products available through the Google Earth Engine Community Catalog. | Global | Canopy height | Open |
+| [Meta–WRI Global Tree Canopy Height](https://datasets.wri.org/datasets/meta-tree-canopy-height) | High-resolution canopy height products available through the Google Earth Engine Community Catalog. | Global | Canopy height | Open |
 | [Global Canopy Height](https://langnico.github.io/globalcanopyheight/) | High-resolution global canopy height model derived from remote sensing observations. | Global | Canopy height | Open |
 
 ---
@@ -169,6 +169,11 @@ National and global land-cover, land-use, surface characterization, and land-cha
 | [GEE Community Catalog – Data Themes](https://gee-community-catalog.org/projects/) | Community-maintained catalog of geospatial datasets available through or compatible with Google Earth Engine. | Global | Varies | Open |
 | [Fractional Impervious Surface](https://www.mrlc.gov/data/type/fractional-impervious-surface) | MRLC/NLCD product estimating the percentage of each pixel covered by impervious surfaces such as roads, buildings, and other developed surfaces. | United States | 30 m | Open |
 | [ESA WorldCover](https://esa-worldcover.org/) | Global land-cover product derived from Sentinel-1 and Sentinel-2 observations for land-cover and habitat characterization. | Global | 10 m | Open |
+| [Esri 10m Annual Land Cover](https://livingatlas.arcgis.com/landcover/) | Global annual land-cover maps derived from Earth observation imagery with nine major land-cover classes. | Global | 10 m | Open / platform access |
+| [Impact Observatory IO Monitor](https://www.impactobservatory.com/) | AI-powered land-cover monitoring products providing global 10 m mapping and on-demand higher-resolution land-cover products. | Global / on demand | 10 m / 3 m product-dependent | Commercial / product dependent |
+| [Copernicus Global Dynamic Land Cover](https://land.copernicus.eu/en/products/global-dynamic-land-cover) | Global land-cover and vegetation-fraction products supporting environmental monitoring and land-surface analysis. | Global | Product-dependent; 10 m / 100 m products | Open |
+| [GLC_FCS30D](https://doi.org/10.5194/essd-16-1353-2024) | Global fine-classification land-cover dynamic product derived from Landsat time series for long-term land-cover and change analysis. | Global | 30 m | Open |
+| [NOAA Digital Coast High-Resolution Land Cover](https://coast.noaa.gov/digitalcoast/data/) | High-resolution coastal and regional land-cover products including tree canopy, impervious surfaces, and detailed land-cover classes. | Selected United States regions | Product-dependent; including approximately 1 m products | Open |
 
 ---
 
@@ -183,6 +188,7 @@ Datasets related to crops, agricultural land, field boundaries, farmland, crop m
 | [Florida Statewide Land Use and Land Cover](https://geodata.dep.state.fl.us/datasets/FDEP::statewide-land-use-land-cover/about) | Statewide land-use dataset containing agricultural and related land-use classes. | Florida, United States | Varies | Open |
 | [USDA NAIP Imagery](https://nrcs.app.box.com/v/naip/folder/17936490251) | High-resolution aerial imagery widely used for crop, field, farm, and agricultural mapping. | United States | Sub-meter to 1 m depending on year and location | Open |
 | [USDA NASS Cropland Data Layer Releases](https://www.nass.usda.gov/Research_and_Science/Cropland/Release/) | Official USDA NASS download page for national Cropland Data Layer releases, cultivated layers, crop-frequency layers, and related products. | United States | 10 m and 30 m depending on year/product | Open |
+| [ESA WorldCereal](https://esa-worldcereal.org/en/products/global-maps) | Global agricultural land products mapping temporary crops, crop types, and irrigation using Earth observation data. | Global | 10 m | Open |
 
 ---
 
@@ -203,6 +209,7 @@ Datasets related to tree crowns, canopy structure, forest cover, vegetation, and
 | [CanopyRS Available Datasets](https://hugobaudchon.github.io/CanopyRS/user-guide/data/#available-datasets) | Preprocessed tree and canopy datasets for model training and benchmarking, including SelvaBox, SelvaMask, Detectree2, NeonTreeEvaluation, OAM-TCD, BCI50ha, and QuebecTrees. | Multiple regions | Tree crowns / canopy / remote sensing | Open / research |
 | [USDA Forest Service Tree Canopy Cover](https://data.fs.usda.gov/geodata/rastergateway/treecanopycover/) | USDA Forest Service tree canopy cover raster products for forest and vegetation analysis. | United States | Tree canopy cover raster | Open |
 | [Urban Tree Canopy Data – Los Angeles](https://zenodo.org/records/17459767) | Urban tree canopy dataset containing manually delineated canopy polygons, NAIP imagery, spatial sampling data, and prepared deep-learning datasets for tree canopy mapping. | Boyle Heights and City Terrace, Los Angeles, California | NAIP imagery / canopy polygons / deep-learning data | Open / research |
+| [Global Forest Watch Data](https://data.globalforestwatch.org/) | Global forest-monitoring datasets covering tree cover, forest extent, tree-cover loss and gain, and related forest-change indicators. | Global | Product-dependent | Open |
 
 ---
 
